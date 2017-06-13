@@ -1,0 +1,1 @@
+a:5:{s:5:"title";s:13:"Sing资讯网";s:8:"keywords";s:21:"Singcms 新闻 资讯";s:11:"description";s:39:"一个简单的时事新闻资讯网页";s:9:"dumpmysql";s:1:"1";s:10:"cacheindex";s:1:"1";}

@@ -1,0 +1,37 @@
+<include file="Index/header" />
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-9 col-md-9">
+        <div class="news-list">
+          <if condition="$result eq ''">
+          <volist name="result['listNews']" id="listNews">   
+          <dl>
+              <a target="_blank" href="/index.php?c=detail&id={$listNews.news_id}"><dt>{$listNews.title}</dt></a>
+            <dd class="news-img">
+              <a target="_blank" href="/index.php?c=detail&id={$listNews.news_id}"><img width="200" height="120" src="{$listNews.thumb}" alt="{$listNews.title}"></a>
+            </dd>
+            <dd class="news-intro">
+              {$listNews.description}
+            </dd>
+            <dd class="news-info">
+              {$listNews.keywords} <span>{$listNews.create_time|date="Y-m-d H:i:s",###}</span> 阅读(<i news-id="{$listNews.news_id}" class="news_count node-{$listNews.news_id}">{$listNews.count}</i>)
+            </dd>
+          </dl>
+          </volist>  
+          <else/>
+            <dl>
+                <dd style="color:red">当前栏目暂无内容</dd>
+            </dl>
+          </if>
+        </div>
+      </div>
+      <!--网站右侧排行-->
+      <include file="Index/right" />
+    </div>
+  </div>
+</section>
+</body>
+<script src="/Public/js/jquery.js"></script>
+<script src="/Public/js/count.js"></script>
+</html>

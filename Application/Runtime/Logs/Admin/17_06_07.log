@@ -1,0 +1,638 @@
+[ 2017-06-07T10:29:10+08:00 ] 172.16.67.0 /index.php?m=admin&c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0161s ]
+
+[ 2017-06-07T10:29:25+08:00 ] 172.16.67.0 /admin.php?c=content&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000607s ]
+
+[ 2017-06-07T10:29:29+08:00 ] 172.16.67.0 /admin.php?c=content&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000716s ]
+
+[ 2017-06-07T10:42:07+08:00 ] 172.16.67.0 /admin.php?c=content&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+NOTIC: [8] Undefined index: listorder /data/webroot/Application/Admin/Controller/ContentController.class.php 第 156 行.
+
+[ 2017-06-07T10:42:13+08:00 ] 172.16.67.0 /admin.php?c=content&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+NOTIC: [8] Undefined index: listorder /data/webroot/Application/Admin/Controller/ContentController.class.php 第 156 行.
+
+[ 2017-06-07T10:43:25+08:00 ] 172.16.67.0 /admin.php?c=content&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2017-06-07T10:43:59+08:00 ] 172.16.67.0 /admin.php?c=content&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2017-06-07T10:48:33+08:00 ] 172.16.67.0 /admin.php?c=content&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001442s ]
+
+[ 2017-06-07T10:48:52+08:00 ] 172.16.67.0 /admin.php?c=content&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0013s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=21 ) [ RunTime:0.0003s ]
+SQL: UPDATE `cms_news` SET `listorder`='1' WHERE ( news_id=23 ) [ RunTime:0.0002s ]
+SQL: UPDATE `cms_news` SET `listorder`='2' WHERE ( news_id=24 ) [ RunTime:0.0002s ]
+SQL: UPDATE `cms_news` SET `listorder`='3' WHERE ( news_id=22 ) [ RunTime:0.0002s ]
+SQL: UPDATE `cms_news` SET `listorder`='4' WHERE ( news_id=26 ) [ RunTime:0.0002s ]
+
+[ 2017-06-07T10:49:58+08:00 ] 172.16.67.0 /admin.php?m=Admin&c=Content&a=index&p=2
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'catid asc LIMIT 5,5' at line 1
+ [ SQL语句 ] : SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder asc catid asc LIMIT 5,5  
+
+[ 2017-06-07T10:50:17+08:00 ] 172.16.67.0 /admin.php?c=content&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0009s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=21 ) [ RunTime:0.0003s ]
+SQL: UPDATE `cms_news` SET `listorder`='5' WHERE ( news_id=43 ) [ RunTime:0.0002s ]
+SQL: UPDATE `cms_news` SET `listorder`='1' WHERE ( news_id=23 ) [ RunTime:0.0002s ]
+SQL: UPDATE `cms_news` SET `listorder`='2' WHERE ( news_id=24 ) [ RunTime:0.0003s ]
+SQL: UPDATE `cms_news` SET `listorder`='3' WHERE ( news_id=22 ) [ RunTime:0.0002s ]
+
+[ 2017-06-07T10:59:56+08:00 ] 172.16.67.0 /admin.php?c=position
+ERR: 无法加载控制器:Position
+
+[ 2017-06-07T11:22:42+08:00 ] 172.16.67.0 /admin.php?c=position
+ERR: 模板不存在:./Application/Admin/View/Position/index.html
+
+[ 2017-06-07T11:50:18+08:00 ] 172.16.67.0 /index.php?m=admin&c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-06-07T11:51:39+08:00 ] 172.16.67.0 /admin.php?c=content&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001142s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0009s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=21 ) [ RunTime:0.0006s ]
+SQL: UPDATE `cms_news` SET `listorder`='8' WHERE ( news_id=23 ) [ RunTime:0.0003s ]
+SQL: UPDATE `cms_news` SET `listorder`='2' WHERE ( news_id=24 ) [ RunTime:0.0002s ]
+SQL: UPDATE `cms_news` SET `listorder`='3' WHERE ( news_id=22 ) [ RunTime:0.0002s ]
+SQL: UPDATE `cms_news` SET `listorder`='4' WHERE ( news_id=26 ) [ RunTime:0.0002s ]
+
+[ 2017-06-07T12:01:40+08:00 ] 172.16.67.0 /admin.php?c=content&a=push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+
+[ 2017-06-07T12:02:20+08:00 ] 172.16.67.0 /admin.php?c=content&a=push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001215s ]
+
+[ 2017-06-07T12:02:54+08:00 ] 172.16.67.0 /admin.php?c=content&a=push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+
+[ 2017-06-07T12:03:25+08:00 ] 172.16.67.0 /admin.php?c=content&a=push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+
+[ 2017-06-07T15:50:48+08:00 ] 172.16.67.0 /index.php?m=admin&c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-07T15:50:59+08:00 ] 172.16.67.0 /admin.php?c=basic
+ERR: 无法加载控制器:Basic
+
+[ 2017-06-07T15:52:13+08:00 ] 172.16.67.0 /admin.php?c=basic
+ERR: 无法加载控制器:Basic
+
+[ 2017-06-07T15:52:17+08:00 ] 172.16.67.0 /admin.php?c=positioncontent
+ERR: 无法加载控制器:Positioncontent
+
+[ 2017-06-07T15:52:31+08:00 ] 172.16.67.0 /admin.php?c=positioncontent
+ERR: 无法加载控制器:Positioncontent
+
+[ 2017-06-07T16:02:33+08:00 ] 172.16.67.0 /admin.php?c=position
+ERR: Think\Model:getNormalPosition方法不存在！
+
+[ 2017-06-07T16:10:54+08:00 ] 172.16.67.0 /admin.php?c=positioncontent&a=edit&id=
+ERR: 非法操作:edit
+
+[ 2017-06-07T16:41:13+08:00 ] 172.16.67.0 /admin.php?c=position&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001252s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0006s ]
+SQL: INSERT INTO `cms_position` (`name`,`description`,`status`,`create_time`) VALUES ('Banner头图','Banner部分的推荐位','0','1496824873') [ RunTime:0.0005s ]
+
+[ 2017-06-07T16:44:48+08:00 ] 172.16.67.0 /admin.php?c=position&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+ERR: 非法操作:setStatus
+
+[ 2017-06-07T16:44:49+08:00 ] 172.16.67.0 /admin.php?c=position&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+ERR: 非法操作:setStatus
+
+[ 2017-06-07T16:45:00+08:00 ] 172.16.67.0 /admin.php?c=position&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+ERR: 非法操作:setStatus
+
+[ 2017-06-07T16:50:26+08:00 ] 172.16.67.0 /admin.php?c=position&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+
+[ 2017-06-07T16:51:05+08:00 ] 172.16.67.0 /admin.php?c=position&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001246s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0008s ]
+SQL: UPDATE `cms_position` SET `status`='0' WHERE ( id=6 ) [ RunTime:0.0004s ]
+
+[ 2017-06-07T16:51:54+08:00 ] 172.16.67.0 /admin.php?c=position&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001628s ]
+
+[ 2017-06-07T16:52:58+08:00 ] 172.16.67.0 /admin.php?c=position&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001246s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0007s ]
+SQL: UPDATE `cms_position` SET `status`='0' WHERE ( id=6 ) [ RunTime:0.0008s ]
+
+[ 2017-06-07T16:53:00+08:00 ] 172.16.67.0 /admin.php?c=position&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0009s ]
+SQL: UPDATE `cms_position` SET `status`='0' WHERE ( id=6 ) [ RunTime:0.0003s ]
+
+[ 2017-06-07T16:53:28+08:00 ] 172.16.67.0 /admin.php?c=position&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0009s ]
+SQL: UPDATE `cms_position` SET `status`='0' WHERE ( id=6 ) [ RunTime:0.0004s ]
+
+[ 2017-06-07T16:57:35+08:00 ] 172.16.67.0 /admin.php?c=position&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0007s ]
+SQL: UPDATE `cms_position` SET `status`='1' WHERE ( id=6 ) [ RunTime:0.0005s ]
+
+[ 2017-06-07T16:57:38+08:00 ] 172.16.67.0 /admin.php?c=position&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0006s ]
+SQL: UPDATE `cms_position` SET `status`='0' WHERE ( id=6 ) [ RunTime:0.0026s ]
+
+[ 2017-06-07T17:01:30+08:00 ] 172.16.67.0 /admin.php?c=position&a=edit&id=2
+ERR: 非法操作:edit
+
+[ 2017-06-07T17:09:55+08:00 ] 172.16.67.0 /admin.php?c=position&a=edit&id=6
+ERR: Think\Model:getOnePosition方法不存在！
+
+[ 2017-06-07T17:23:20+08:00 ] 172.16.67.0 /admin.php?c=position&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003612s ]
+NOTIC: [8] Undefined index: id /data/webroot/Application/Admin/Controller/PositionController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0007s ]
+SQL: INSERT INTO `cms_position` (`name`,`description`,`status`,`create_time`) VALUES ('Banner尾图','Banner部分的推荐位','1','1496827400') [ RunTime:0.0003s ]
+
+[ 2017-06-07T17:23:42+08:00 ] 172.16.67.0 /admin.php?c=position&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+NOTIC: [8] Undefined index: id /data/webroot/Application/Admin/Controller/PositionController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0007s ]
+SQL: INSERT INTO `cms_position` (`name`,`description`,`status`,`create_time`) VALUES ('Banner屁股','Banner部分的推荐位','0','1496827422') [ RunTime:0.0003s ]
+
+[ 2017-06-07T17:24:28+08:00 ] 172.16.67.0 /admin.php?c=position&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+NOTIC: [8] Undefined index: id /data/webroot/Application/Admin/Controller/PositionController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0008s ]
+SQL: INSERT INTO `cms_position` (`name`,`description`,`status`,`create_time`) VALUES ('Banner屁','Banner部分的推荐位','0','1496827468') [ RunTime:0.0004s ]
+
+[ 2017-06-07T17:24:33+08:00 ] 172.16.67.0 /admin.php?c=position&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0008s ]
+SQL: UPDATE `cms_position` SET `status`='-1' WHERE ( id=9 ) [ RunTime:0.0010s ]
+
+[ 2017-06-07T17:26:03+08:00 ] 172.16.67.0 /admin.php?c=position&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001340s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0007s ]
+SQL: UPDATE `cms_position` SET `status`='-1' WHERE ( id=8 ) [ RunTime:0.0008s ]
+
+[ 2017-06-07T17:26:12+08:00 ] 172.16.67.0 /admin.php?c=position&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+NOTIC: [8] Undefined index: id /data/webroot/Application/Admin/Controller/PositionController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0007s ]
+SQL: INSERT INTO `cms_position` (`name`,`description`,`status`,`create_time`) VALUES ('Banner尾','Banner部分的推荐位','0','1496827572') [ RunTime:0.0007s ]
+
+[ 2017-06-07T17:27:31+08:00 ] 172.16.67.0 /admin.php?c=position&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+NOTIC: [8] Undefined index: id /data/webroot/Application/Admin/Controller/PositionController.class.php 第 26 行.
+
+[ 2017-06-07T17:27:34+08:00 ] 172.16.67.0 /admin.php?c=position&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+NOTIC: [8] Undefined index: id /data/webroot/Application/Admin/Controller/PositionController.class.php 第 26 行.
+
+[ 2017-06-07T17:29:39+08:00 ] 172.16.67.0 /admin.php?c=position&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002467s ]
+NOTIC: [8] Undefined index: id /data/webroot/Application/Admin/Controller/PositionController.class.php 第 26 行.
+
+[ 2017-06-07T17:29:40+08:00 ] 172.16.67.0 /admin.php?c=position&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+NOTIC: [8] Undefined index: id /data/webroot/Application/Admin/Controller/PositionController.class.php 第 26 行.
+
+[ 2017-06-07T17:30:49+08:00 ] 172.16.67.0 /admin.php?c=position&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0006s ]
+SQL: UPDATE `cms_position` SET `name`='Banner尾',`description`='Banner部分的推荐位',`status`='0' WHERE ( id=10 ) [ RunTime:0.0003s ]
+
+[ 2017-06-07T17:31:47+08:00 ] 172.16.67.0 /admin.php?c=content&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+
+[ 2017-06-07T17:31:52+08:00 ] 172.16.67.0 /admin.php?c=content&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0008s ]
+SQL: UPDATE `cms_news` SET `title`='法国强烈谴责美国 不用手机不上网',`small_title`='法国强烈谴责美国',`thumb`='/upload/2017/06/05/59352b7835a82.png',`title_font_color`='#ed568b',`catid`='12',`copyfrom`='2',`description`='法国谴责美国',`keywords`='法国 美国' WHERE ( news_id=26 ) [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0004s ]
+SQL: UPDATE `cms_news_content` SET `content`='jiasdocnoiqoqwid' WHERE ( news_id=26 ) [ RunTime:0.0002s ]
+
+[ 2017-06-07T17:32:08+08:00 ] 172.16.67.0 /admin.php?c=position&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0009s ]
+SQL: UPDATE `cms_position` SET `name`='Banner尾',`description`='Banner部分',`status`='0' WHERE ( id=10 ) [ RunTime:0.0004s ]
+
+[ 2017-06-07T17:33:12+08:00 ] 172.16.67.0 /admin.php?c=position&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0007s ]
+SQL: UPDATE `cms_position` SET `name`='Banner尾',`description`='Banner部分修改',`status`='0' WHERE ( id=10 ) [ RunTime:0.0008s ]
+
+[ 2017-06-07T17:34:03+08:00 ] 172.16.67.0 /admin.php?c=position&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0009s ]
+SQL: UPDATE `cms_position` SET `status`='-1' WHERE ( id=7 ) [ RunTime:0.0007s ]
+
+[ 2017-06-07T17:34:08+08:00 ] 172.16.67.0 /admin.php?c=position&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0006s ]
+SQL: UPDATE `cms_position` SET `status`='1' WHERE ( id=6 ) [ RunTime:0.0014s ]
+
+[ 2017-06-07T17:34:11+08:00 ] 172.16.67.0 /admin.php?c=position&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0006s ]
+SQL: UPDATE `cms_position` SET `status`='0' WHERE ( id=6 ) [ RunTime:0.0102s ]
+
+[ 2017-06-07T18:39:14+08:00 ] 172.16.67.0 /admin.php?c=positioncontent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+ERR: 非法操作:listorder
+
+[ 2017-06-07T19:16:53+08:00 ] 172.16.67.0 /admin.php?c=positioncontent&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002581s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0014s ]
+SQL: INSERT INTO `cms_position_content` (`title`,`position_id`,`thumb`,`url`,`news_id`,`status`,`create_time`) VALUES ('测试用推荐位内容','2','/upload/2017/06/07/5937e05772925.jpg','http://www.baidu.com','0','1','1496834213') [ RunTime:0.0007s ]
+
+[ 2017-06-07T19:18:29+08:00 ] 172.16.67.0 /admin.php?c=positioncontent&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001231s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0021s ]
+
+[ 2017-06-07T19:19:35+08:00 ] 172.16.67.0 /admin.php?c=positioncontent&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001227s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0008s ]
+
+[ 2017-06-07T19:20:01+08:00 ] 172.16.67.0 /admin.php?c=positioncontent&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=21 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-06-07T19:20:14+08:00 ] 172.16.67.0 /admin.php?c=positioncontent&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=21 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0004s ]
+SQL: INSERT INTO `cms_position_content` (`title`,`position_id`,`thumb`,`url`,`news_id`,`status`,`create_time`) VALUES ('文章21测试','2','/upload/2016/03/13/56e519a185c93.png','','21','1','1496834414') [ RunTime:0.0003s ]
+
+[ 2017-06-07T19:35:03+08:00 ] 172.16.67.0 /admin.php?c=positioncontent&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0007s ]
+SQL: INSERT INTO `cms_position_content` (`title`,`position_id`,`thumb`,`url`,`news_id`,`status`,`create_time`) VALUES ('测试用推荐位内容','2','/upload/2017/06/07/5937e4e2ae7da.jpg','http://www.baidu.com','0','1','1496835303') [ RunTime:0.0003s ]
+
+[ 2017-06-07T19:44:06+08:00 ] 172.16.67.0 /admin.php?c=positioncontent&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0008s ]
+SQL: UPDATE `cms_position_content` SET `title`='文章21测试',`position_id`='2',`thumb`='/upload/2017/06/07/5937e700713c8.jpg',`url`='',`news_id`='21',`status`='1' WHERE ( id=35 ) [ RunTime:0.0009s ]
+
+[ 2017-06-07T19:51:51+08:00 ] 172.16.67.0 /admin.php?c=positioncontent&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0006s ]
+SQL: UPDATE `cms_position` SET `status`='0' WHERE ( id=36 ) [ RunTime:0.0003s ]
+
+[ 2017-06-07T19:52:56+08:00 ] 172.16.67.0 /admin.php?c=positioncontent&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0006s ]
+SQL: UPDATE `cms_position` SET `status`='0' WHERE ( id=36 ) [ RunTime:0.0003s ]
+
+[ 2017-06-07T19:54:14+08:00 ] 172.16.67.0 /admin.php?c=positioncontent&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0008s ]
+SQL: UPDATE `cms_position` SET `status`='0' WHERE ( id=36 ) [ RunTime:0.0003s ]
+
+[ 2017-06-07T19:54:25+08:00 ] 172.16.67.0 /admin.php?c=positioncontent&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0007s ]
+SQL: UPDATE `cms_position` SET `status`='0' WHERE ( id=36 ) [ RunTime:0.0003s ]
+
+[ 2017-06-07T19:55:09+08:00 ] 172.16.67.0 /admin.php?c=positioncontent&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0007s ]
+SQL: UPDATE `cms_position` SET `status`='0' WHERE ( id=36 ) [ RunTime:0.0026s ]
+
+[ 2017-06-07T19:55:47+08:00 ] 172.16.67.0 /admin.php?c=positioncontent&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0009s ]
+SQL: UPDATE `cms_position_content` SET `status`='0' WHERE ( id=36 ) [ RunTime:0.0006s ]
+
+[ 2017-06-07T19:56:00+08:00 ] 172.16.67.0 /admin.php?c=positioncontent&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0007s ]
+SQL: UPDATE `cms_position_content` SET `status`='1' WHERE ( id=36 ) [ RunTime:0.0015s ]
+
+[ 2017-06-07T19:56:15+08:00 ] 172.16.67.0 /admin.php?c=positioncontent&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0007s ]
+SQL: UPDATE `cms_position_content` SET `status`='-1' WHERE ( id=36 ) [ RunTime:0.0010s ]
+
+[ 2017-06-07T20:25:50+08:00 ] 172.16.67.0 /admin.php?c=positioncontent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002148s ]
+NOTIC: [8] Undefined index: listorder /data/webroot/Application/Admin/Controller/PositioncontentController.class.php 第 117 行.
+
+[ 2017-06-07T20:26:23+08:00 ] 172.16.67.0 /admin.php?c=positioncontent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+NOTIC: [8] Undefined index: listorder /data/webroot/Application/Admin/Controller/PositioncontentController.class.php 第 117 行.
+
+[ 2017-06-07T20:26:30+08:00 ] 172.16.67.0 /admin.php?c=positioncontent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/webroot/Application/Admin/Controller/PositioncontentController.class.php 第 122 行.
+
+[ 2017-06-07T20:27:56+08:00 ] 172.16.67.0 /admin.php?c=positioncontent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+
+[ 2017-06-07T20:28:17+08:00 ] 172.16.67.0 /admin.php?c=positioncontent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+
+[ 2017-06-07T20:28:52+08:00 ] 172.16.67.0 /admin.php?c=positioncontent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+
+[ 2017-06-07T20:30:22+08:00 ] 172.16.67.0 /admin.php?c=positioncontent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002098s ]
+
+[ 2017-06-07T20:30:24+08:00 ] 172.16.67.0 /admin.php?c=positioncontent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+
+[ 2017-06-07T20:30:25+08:00 ] 172.16.67.0 /admin.php?c=positioncontent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+
+[ 2017-06-07T20:30:36+08:00 ] 172.16.67.0 /admin.php?c=positioncontent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+
+[ 2017-06-07T20:31:20+08:00 ] 172.16.67.0 /admin.php?c=positioncontent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: listorder /data/webroot/Application/Common/Model/PositionContentModel.class.php 第 76 行.
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=28 ) [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: listorder /data/webroot/Application/Common/Model/PositionContentModel.class.php 第 76 行.
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=30 ) [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: listorder /data/webroot/Application/Common/Model/PositionContentModel.class.php 第 76 行.
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=31 ) [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: listorder /data/webroot/Application/Common/Model/PositionContentModel.class.php 第 76 行.
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=32 ) [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: listorder /data/webroot/Application/Common/Model/PositionContentModel.class.php 第 76 行.
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=33 ) [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: listorder /data/webroot/Application/Common/Model/PositionContentModel.class.php 第 76 行.
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=34 ) [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: listorder /data/webroot/Application/Common/Model/PositionContentModel.class.php 第 76 行.
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=35 ) [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: listorder /data/webroot/Application/Common/Model/PositionContentModel.class.php 第 76 行.
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=29 ) [ RunTime:0.0002s ]
+
+[ 2017-06-07T20:33:55+08:00 ] 172.16.67.0 /admin.php?c=positioncontent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002216s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: listorder /data/webroot/Application/Common/Model/PositionContentModel.class.php 第 76 行.
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=28 ) [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: listorder /data/webroot/Application/Common/Model/PositionContentModel.class.php 第 76 行.
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=29 ) [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: listorder /data/webroot/Application/Common/Model/PositionContentModel.class.php 第 76 行.
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=30 ) [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: listorder /data/webroot/Application/Common/Model/PositionContentModel.class.php 第 76 行.
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=31 ) [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: listorder /data/webroot/Application/Common/Model/PositionContentModel.class.php 第 76 行.
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=32 ) [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: listorder /data/webroot/Application/Common/Model/PositionContentModel.class.php 第 76 行.
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=33 ) [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: listorder /data/webroot/Application/Common/Model/PositionContentModel.class.php 第 76 行.
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=34 ) [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: listorder /data/webroot/Application/Common/Model/PositionContentModel.class.php 第 76 行.
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=35 ) [ RunTime:0.0002s ]
+
+[ 2017-06-07T20:34:54+08:00 ] 172.16.67.0 /admin.php?c=positioncontent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+
+[ 2017-06-07T20:35:30+08:00 ] 172.16.67.0 /admin.php?c=positioncontent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001545s ]
+
+[ 2017-06-07T20:35:43+08:00 ] 172.16.67.0 /admin.php?c=positioncontent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+
+[ 2017-06-07T20:35:45+08:00 ] 172.16.67.0 /admin.php?c=positioncontent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+
+[ 2017-06-07T20:37:20+08:00 ] 172.16.67.0 /admin.php?c=positioncontent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002086s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: listorder /data/webroot/Application/Common/Model/PositionContentModel.class.php 第 76 行.
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=28 ) [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: listorder /data/webroot/Application/Common/Model/PositionContentModel.class.php 第 76 行.
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=29 ) [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: listorder /data/webroot/Application/Common/Model/PositionContentModel.class.php 第 76 行.
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=30 ) [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: listorder /data/webroot/Application/Common/Model/PositionContentModel.class.php 第 76 行.
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=31 ) [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: listorder /data/webroot/Application/Common/Model/PositionContentModel.class.php 第 76 行.
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=32 ) [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: listorder /data/webroot/Application/Common/Model/PositionContentModel.class.php 第 76 行.
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=33 ) [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: listorder /data/webroot/Application/Common/Model/PositionContentModel.class.php 第 76 行.
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=34 ) [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: listorder /data/webroot/Application/Common/Model/PositionContentModel.class.php 第 76 行.
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=35 ) [ RunTime:0.0002s ]
+
+[ 2017-06-07T20:40:00+08:00 ] 172.16.67.0 /admin.php?c=positioncontent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002222s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0007s ]
+SQL: UPDATE `cms_position_content` SET `listorder`='234' WHERE ( id=28 ) [ RunTime:0.0006s ]
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=29 ) [ RunTime:0.0002s ]
+SQL: UPDATE `cms_position_content` SET `listorder`='234' WHERE ( id=30 ) [ RunTime:0.0002s ]
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=31 ) [ RunTime:0.0002s ]
+SQL: UPDATE `cms_position_content` SET `listorder`='34' WHERE ( id=32 ) [ RunTime:0.0002s ]
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=33 ) [ RunTime:0.0002s ]
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=34 ) [ RunTime:0.0002s ]
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=35 ) [ RunTime:0.0002s ]
+
+[ 2017-06-07T20:40:29+08:00 ] 172.16.67.0 /admin.php?c=positioncontent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0007s ]
+SQL: UPDATE `cms_position_content` SET `listorder`='1' WHERE ( id=28 ) [ RunTime:0.0030s ]
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=29 ) [ RunTime:0.0003s ]
+SQL: UPDATE `cms_position_content` SET `listorder`='2' WHERE ( id=30 ) [ RunTime:0.0003s ]
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=31 ) [ RunTime:0.0002s ]
+SQL: UPDATE `cms_position_content` SET `listorder`='3' WHERE ( id=32 ) [ RunTime:0.0002s ]
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=33 ) [ RunTime:0.0002s ]
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=34 ) [ RunTime:0.0002s ]
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=35 ) [ RunTime:0.0002s ]
+

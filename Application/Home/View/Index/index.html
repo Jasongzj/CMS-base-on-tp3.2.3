@@ -1,0 +1,45 @@
+<include file="Index/header" />
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-9 col-md-9">
+        <div class="banner">
+          <div class="banner-left">
+            <a target="_blank" href="/index.php?c=detail&id={$result['topPicNews'][0]['news_id']}"  ><img width="670" height="480" src="{$result['topPicNews'][0]['thumb']}" alt=""></a>
+          </div>
+          <div class="banner-right">
+            <ul>
+              <volist name="result['topSmallNews']" id="topSN">
+              <li>
+                <a target="_blank" href="/index.php?c=detail&id={$topSN.news_id}"><img width="150" height="150" src="{$topSN.thumb}" alt="{$topSN.title}"></a>
+              </li>
+              </volist>
+            </ul>
+          </div>
+        </div>
+        <div class="news-list">
+          <volist name="result['listNews']" id="listNews">   
+          <dl>
+              <a target="_blank" href="/index.php?c=detail&id={$listNews.news_id}"><dt>{$listNews.title}</dt></a>
+            <dd class="news-img">
+              <a target="_blank" href="/index.php?c=detail&id={$listNews.news_id}"><img width="200" height="120" src="{$listNews.thumb}" alt="{$listNews.title}"></a>
+            </dd>
+            <dd class="news-intro">
+              {$listNews.description}
+            </dd>
+            <dd class="news-info">
+              {$listNews.keywords} <span>{$listNews.create_time|date="Y-m-d H:i:s",###}</span> 阅读(<i news-id="{$listNews.news_id}" class="news_count node-{$listNews.news_id}">{$listNews.count}</i>)
+            </dd>
+          </dl>
+          </volist>   
+        </div>
+      </div>
+      <!--网站右侧排行-->
+      <include file="right" />
+    </div>
+  </div>
+</section>
+</body>
+<script src="/Public/js/jquery.js"></script>
+<script src="/Public/js/count.js"></script>
+</html>

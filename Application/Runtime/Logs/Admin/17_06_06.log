@@ -1,0 +1,207 @@
+[ 2017-06-06T11:49:21+08:00 ] 172.16.67.0 /index.php?m=admin&c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0129s ]
+
+[ 2017-06-06T11:49:22+08:00 ] 172.16.67.0 /index.php?m=admin&c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-06-06T11:49:24+08:00 ] 172.16.67.0 /admin.php?c=content
+ERR: XML标签语法错误 : condition='new['status']=1'
+
+[ 2017-06-06T12:11:47+08:00 ] 172.16.67.0 /admin.php?c=content&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002215s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0020s ]
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-06-06T12:11:48+08:00 ] 172.16.67.0 /admin.php?c=content&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0010s ]
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-06-06T12:11:49+08:00 ] 172.16.67.0 /admin.php?c=content&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0009s ]
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-06-06T12:11:50+08:00 ] 172.16.67.0 /admin.php?c=content&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0007s ]
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-06-06T12:11:50+08:00 ] 172.16.67.0 /admin.php?c=content&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0008s ]
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-06-06T12:11:50+08:00 ] 172.16.67.0 /admin.php?c=content&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0008s ]
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-06-06T12:11:50+08:00 ] 172.16.67.0 /admin.php?c=content&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0008s ]
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-06-06T12:11:51+08:00 ] 172.16.67.0 /admin.php?c=content&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0008s ]
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-06-06T12:11:51+08:00 ] 172.16.67.0 /admin.php?c=content&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0009s ]
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-06-06T12:11:52+08:00 ] 172.16.67.0 /admin.php?c=content&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0008s ]
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-06-06T12:11:52+08:00 ] 172.16.67.0 /admin.php?c=content&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0007s ]
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-06-06T12:11:52+08:00 ] 172.16.67.0 /admin.php?c=content&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0008s ]
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-06-06T12:11:52+08:00 ] 172.16.67.0 /admin.php?c=content&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0007s ]
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-06-06T12:12:25+08:00 ] 172.16.67.0 /admin.php?c=content&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0008s ]
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-06-06T12:12:30+08:00 ] 172.16.67.0 /admin.php?c=content&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0008s ]
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-06-06T12:12:30+08:00 ] 172.16.67.0 /admin.php?c=content&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0009s ]
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-06-06T12:12:39+08:00 ] 172.16.67.0 /admin.php?c=content&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0008s ]
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-06-06T12:13:24+08:00 ] 172.16.67.0 /admin.php?c=content&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001391s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0008s ]
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-06-06T12:15:03+08:00 ] 172.16.67.0 /admin.php?c=content&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002088s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0007s ]
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-06-06T12:15:29+08:00 ] 172.16.67.0 /admin.php?c=content&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0008s ]
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-06-06T12:19:26+08:00 ] 172.16.67.0 /admin.php?c=content&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2017-06-06T12:21:13+08:00 ] 172.16.67.0 /admin.php?c=content&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0009s ]
+SQL: UPDATE `cms_news` SET `status`='0' WHERE ( news_id=26 ) [ RunTime:0.0008s ]
+
+[ 2017-06-06T12:21:18+08:00 ] 172.16.67.0 /admin.php?c=content&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0007s ]
+SQL: UPDATE `cms_news` SET `status`='0' WHERE ( news_id=26 ) [ RunTime:0.0008s ]
+
+[ 2017-06-06T12:21:43+08:00 ] 172.16.67.0 /admin.php?c=content&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0008s ]
+SQL: UPDATE `cms_news` SET `status`='0' WHERE ( news_id=26 ) [ RunTime:0.0008s ]
+
+[ 2017-06-06T12:22:22+08:00 ] 172.16.67.0 /admin.php?c=content&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0007s ]
+SQL: UPDATE `cms_news` SET `status`='1' WHERE ( news_id=26 ) [ RunTime:0.0003s ]
+
+[ 2017-06-06T12:22:26+08:00 ] 172.16.67.0 /admin.php?c=content&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0008s ]
+SQL: UPDATE `cms_news` SET `status`='0' WHERE ( news_id=26 ) [ RunTime:0.0021s ]
+
+[ 2017-06-06T12:22:28+08:00 ] 172.16.67.0 /admin.php?c=content&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0008s ]
+SQL: UPDATE `cms_news` SET `status`='1' WHERE ( news_id=26 ) [ RunTime:0.0017s ]
+

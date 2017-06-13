@@ -1,0 +1,192 @@
+[ 2017-06-08T12:13:40+08:00 ] 172.16.67.0 /index.php?c=cat&id=8
+ERR: 无法加载控制器:Cat
+
+[ 2017-06-08T12:21:39+08:00 ] 172.16.67.0 /index.php?c=cat&id=8
+ERR: 无法加载控制器:Cat
+
+[ 2017-06-08T13:04:39+08:00 ] 172.16.67.0 /index.php?c=detail&id=0
+ERR: 无法加载控制器:Detail
+
+[ 2017-06-08T13:06:04+08:00 ] 172.16.67.0 /index.php?c=detail&id=22
+ERR: 无法加载控制器:Detail
+
+[ 2017-06-08T14:54:18+08:00 ] 172.16.67.0 /
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY listorder asc,id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `cms_news` WHERE `status` <> -1 AND `thumb` <> '' AND (  ) ORDER BY listorder asc,id asc 
+
+[ 2017-06-08T14:56:03+08:00 ] 172.16.67.0 /
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY listorder asc,id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `cms_news` WHERE `status` = 1 AND `thumb` <> '' AND (  ) ORDER BY listorder asc,id asc 
+
+[ 2017-06-08T14:58:03+08:00 ] 172.16.67.0 /
+ERR: 1054:Unknown column 'id' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `cms_news` WHERE `status` <> -1 AND `thumb` <> '' ORDER BY listorder asc,id asc LIMIT 30  
+
+[ 2017-06-08T14:58:39+08:00 ] 172.16.67.0 /
+ERR: Think\Controller:getRank方法不存在！
+
+[ 2017-06-08T16:56:23+08:00 ] 172.16.67.0 /index.php?c=cat&id=8
+ERR: 模板不存在:./Application/Home/View/Cat/index.html
+
+[ 2017-06-08T17:33:43+08:00 ] 172.16.67.0 /index.php?c=detail&id=23
+ERR: 模板不存在:./Application/Home/View/Detail/index.html
+
+[ 2017-06-08T17:57:03+08:00 ] 172.16.67.0 /index.php?c=detail&a=view&id=21
+ERR: 模板不存在:./Application/Home/View/Index/Detail.html
+
+[ 2017-06-08T18:33:42+08:00 ] 172.16.67.0 /index.php?c=index&a=build_html
+ERR: 模板不存在:./Application/Home/View/Index/build_html.html
+
+[ 2017-06-08T18:35:09+08:00 ] 172.16.67.0 /index.php?c=index&a=build_html
+ERR: 模板不存在:./Application/Home/View/Index/build_html.html
+
+[ 2017-06-08T18:36:08+08:00 ] 172.16.67.0 /index.php?c=index&a=build_html
+ERR: 模板不存在:./Application/Home/View/Index/build_html.html
+
+[ 2017-06-08T18:51:14+08:00 ] 172.16.67.0 /index.php?c=index&a=build_html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+
+[ 2017-06-08T18:51:24+08:00 ] 172.16.67.0 /index.php?c=index&a=build_html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+
+[ 2017-06-08T18:51:25+08:00 ] 172.16.67.0 /index.php?c=index&a=build_html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+
+[ 2017-06-08T18:51:25+08:00 ] 172.16.67.0 /index.php?c=index&a=build_html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+
+[ 2017-06-08T18:51:46+08:00 ] 172.16.67.0 /index.php?c=index&a=build_html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) /data/webroot/Application/Home/Controller/CommonController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: title /data/webroot/Application/Common/Model/PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` <> -1 AND `position_id` = 2 ORDER BY listorder asc,id asc LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: title /data/webroot/Application/Common/Model/PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` <> -1 AND `position_id` = 3 ORDER BY listorder asc,id asc LIMIT 3   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: title /data/webroot/Application/Common/Model/PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` <> -1 AND `position_id` = 5 ORDER BY listorder asc,id asc LIMIT 2   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /data/webroot/Application/Common/Model/NewsModel.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: title /data/webroot/Application/Common/Model/NewsModel.class.php 第 25 行.
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 AND `thumb` <> '' ORDER BY listorder asc, news_id asc LIMIT 30   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc LIMIT 10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/webroot/Application/Common/Model/BasicModel.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/webroot/Application/Common/Model/BasicModel.class.php 第 25 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /data/webroot/Application/Common/Model/MenuModel.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder asc,menu_id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: name /data/webroot/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name /data/webroot/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019037s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000375s ]
+
+[ 2017-06-08T20:15:40+08:00 ] 172.16.67.0 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) /data/webroot/Application/Home/Controller/CommonController.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /data/webroot/Application/Common/Model/NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('21','24','22','26','43','23')  [ RunTime:0.0004s ]
+
+[ 2017-06-08T20:16:48+08:00 ] 172.16.67.0 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) /data/webroot/Application/Home/Controller/CommonController.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /data/webroot/Application/Common/Model/NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('21','24','22','26','43','23')  [ RunTime:0.0003s ]
+
+[ 2017-06-08T20:18:52+08:00 ] 172.16.67.0 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) /data/webroot/Application/Home/Controller/CommonController.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /data/webroot/Application/Common/Model/NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('21','24','22','26','43','23')  [ RunTime:0.0003s ]
+
+[ 2017-06-08T20:18:57+08:00 ] 172.16.67.0 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) /data/webroot/Application/Home/Controller/CommonController.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /data/webroot/Application/Common/Model/NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('21','24','22','26','43','23')  [ RunTime:0.0004s ]
+
+[ 2017-06-08T20:19:00+08:00 ] 172.16.67.0 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) /data/webroot/Application/Home/Controller/CommonController.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /data/webroot/Application/Common/Model/NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('21','24','22','26','43','23')  [ RunTime:0.0004s ]
+
+[ 2017-06-08T20:19:41+08:00 ] 172.16.67.0 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) /data/webroot/Application/Home/Controller/CommonController.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /data/webroot/Application/Common/Model/NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('21','24','22','26','43','23')  [ RunTime:0.0006s ]
+
+[ 2017-06-08T20:30:14+08:00 ] 172.16.67.0 /index.php?c=index&c=build_html
+ERR: 无法加载控制器:Build_html
+
+[ 2017-06-08T20:30:40+08:00 ] 172.16.67.0 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) /data/webroot/Application/Home/Controller/CommonController.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /data/webroot/Application/Common/Model/NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('21','24','22','26','43','23')  [ RunTime:0.0004s ]
+
+[ 2017-06-08T20:30:52+08:00 ] 172.16.67.0 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) /data/webroot/Application/Home/Controller/CommonController.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /data/webroot/Application/Common/Model/NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('21','24','22','26','43','23')  [ RunTime:0.0004s ]
+
+[ 2017-06-08T20:30:57+08:00 ] 172.16.67.0 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) /data/webroot/Application/Home/Controller/CommonController.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /data/webroot/Application/Common/Model/NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('21','24','22','26','43','23')  [ RunTime:0.0004s ]
+
+[ 2017-06-08T23:06:23+08:00 ] 172.16.67.0 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) /data/webroot/Application/Home/Controller/CommonController.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) /data/webroot/Application/Common/Model/NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('21','24','22','26','43','23')  [ RunTime:0.0004s ]
+
